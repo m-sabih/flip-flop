@@ -1,0 +1,62 @@
+﻿<Window x:Class="task10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="691.2" Width="964.4" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\images.jpg"/>
+    </Window.Background>
+    <Grid>
+
+        <Button Name="one" HorizontalAlignment="Left" Margin="300,64,0,0" VerticalAlignment="Top" Width="137" Height="119" Click="one_Click" IsEnabled="False">
+            <Image Name="oneimg" Source="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\question.png" Stretch="Fill"></Image>
+        </Button>
+        <Button Name="two" HorizontalAlignment="Left" Margin="437,64,0,0" VerticalAlignment="Top" Width="134" Height="119" Click="two_Click" IsEnabled="False">
+            <Image Name="twoimg" Source="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\question.png" Stretch="Fill"></Image>
+        </Button>
+        <Button Name="four" HorizontalAlignment="Left" Margin="300,183,0,0" VerticalAlignment="Top" Width="137" Height="115" Click="four_Click" IsEnabled="False">
+            <Image Name="fourimg" Source="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\question.png" Stretch="Fill"></Image>
+        </Button>
+        <Button Name="five" HorizontalAlignment="Left" Margin="437,183,0,0" VerticalAlignment="Top" Width="134" Height="115" Click="five_Click" IsEnabled="False">
+            <Image Name="fiveimg" Source="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\question.png" Stretch="Fill"></Image>
+        </Button>
+        <Button Name="three" HorizontalAlignment="Left" Margin="567,64,0,0" VerticalAlignment="Top" Width="134" Height="119" Click="three_Click" IsEnabled="False">
+            <Image Name="threeimg" Source="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\question.png" Stretch="Fill"></Image>
+        </Button>
+        <Button Name="nine" HorizontalAlignment="Left" Margin="567,298,0,0" VerticalAlignment="Top" Width="134" Height="119" Click="nine_Click" IsEnabled="False">
+            <Image Name="nineimg" Source="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\question.png" Stretch="Fill"></Image>
+        </Button>
+        <Button Name="eight" HorizontalAlignment="Left" Margin="437,298,0,0" VerticalAlignment="Top" Width="130" Height="119" Click="eight_Click" IsEnabled="False">
+            <Image Name="eightimg" Source="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\question.png" Stretch="Fill"></Image>
+        </Button>
+        <Button Name="seven" HorizontalAlignment="Left" Margin="300,298,0,0" VerticalAlignment="Top" Width="137" Height="119" Click="seven_Click" IsEnabled="False">
+            <Image Name="sevenimg" Source="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\question.png" Stretch="Fill"></Image>
+        </Button>
+        <Button Name="six" HorizontalAlignment="Left" Margin="567,183,0,0" VerticalAlignment="Top" Width="134" Height="115" Click="six_Click" IsEnabled="False">
+            <Image Name="siximg" Source="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\question.png" Stretch="Fill"></Image>
+        </Button>
+        <Button Name="ten" HorizontalAlignment="Left" Margin="300,417,0,0" VerticalAlignment="Top" Width="137" Height="115" Click="ten_Click" IsEnabled="False">
+            <Image Name="tenimg" Source="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\question.png" Stretch="Fill"></Image>
+        </Button>
+        <Button Name="eleven" HorizontalAlignment="Left" Margin="437,417,0,0" VerticalAlignment="Top" Width="134" Height="115" Click="eleven_Click" IsEnabled="False">
+            <Image Name="elevenimg" Source="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\question.png" Stretch="Fill"></Image>
+        </Button>
+        <Button Name="twelve" HorizontalAlignment="Left" Margin="567,417,0,0" VerticalAlignment="Top" Width="134" Height="115" Click="twelve_Click" IsEnabled="False">
+            <Image Name="twelveimg" Source="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\question.png" Stretch="Fill"></Image>
+        </Button>
+        <Label Name="time" BorderThickness="1px" HorizontalAlignment="Left" Margin="761,277,0,0" VerticalAlignment="Top" Height="68" Width="146" FontFamily="Arial" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="#FF2646CE" Foreground="White"/>
+        <Button Content="Start" Name="button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="182" Margin="62,332,0,0" Height="67" Background="#FFFD3131" Foreground="White" FontFamily="Arial" FontSize="36" Click="Button_Click"/>
+        <TextBox Name="scorebox" HorizontalAlignment="Left" Height="66" Margin="33,232,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="232" FontFamily="Arial" FontSize="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <ProgressBar Name="progress" Minimum="0" Maximum="30" Margin="62,559,51.4,54.6"/>
+        <TextBox HorizontalAlignment="Left" Name="result" Height="185" Margin="185,263,0,0" TextWrapping="Wrap" Text="You Completed The Game In " VerticalAlignment="Top" Width="595" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial" FontSize="40" Visibility="Hidden" Foreground="White">
+            <TextBox.Background>
+                <ImageBrush ImageSource="D:\My\PUCIT\semester 7\EAD\Assignments\assignment 1\task10\images.jpg"/>
+            </TextBox.Background>
+        </TextBox>
+
+
+    </Grid>
+</Window>
